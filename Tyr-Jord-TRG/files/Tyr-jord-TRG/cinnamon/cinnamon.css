@@ -514,9 +514,10 @@ padding: 8px;
 spacing: 5px;
 }
 .switcher-list {
-border-radius: 4px;
-background-color: rgba(0,0,0,0.85);
-padding: 20px;
+border: inset 1px rgba(245, 151, 151, 0.7);
+border-radius: 10px;
+background-color: rgba(0,0,0,0.75);
+padding: 35px;
 font-weight: bold;
 }
 .switcher-list-item-container {
