@@ -34,7 +34,7 @@ border-image: url("scrollbar.svg") 4;
 }
 #Tooltip {
 padding: 4px 8px 5px 8px;
-background-color: rgba(111, 171, 23, 0.61);
+background-color: rgba(111, 171, 23, 0.43);
 border-radius: 2px;
 font-weight: bold;
 font-size: 8.5pt;
@@ -45,16 +45,31 @@ font-size: 8.5pt;
 .popup-menu-boxpointer {
 -boxpointer-gap: 4px;
 -arrow-border-radius: 4px;
--arrow-background-color: rgba(0,0,0,0.85);
+-arrow-background-color: rgba(0,0,0,0.75);
 -arrow-base: 22px;
 -arrow-rise: 12px;
 }
 .popup-menu {
+	border: inset 3px solid rgba(70,0,0,0.8);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,10,10,0.85);
+	background-gradient-end: rgba(0,10,10,0.7);
+	box-shadow: 1px 1px 1px 1px rgba(15,0,0,0.0);
+	border-radius: 8px;
 }
 .panel-menu {
+	border: inset 3px solid rgba(70,0,0,0.8);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,10,10,0.85);
+	background-gradient-end: rgba(0,10,10,0.7);
+	box-shadow: 1px 1px 1px 1px rgba(15,0,0,0.0);
+	border-radius: 8px;
 }
 .menu {
-background-color: rgba(0,0,0,0.75);
+background-gradient-direction: vertical;
+background-gradient-start: rgba(0,10,10,0.85);
+background-gradient-end: rgba(0,10,10,0.7);
+border: inset 3px solid rgba(70,0,0,0.8);
 border-radius: 4px
 }
 .popup-submenu-menu-item:open {
@@ -400,6 +415,8 @@ padding: 6px;
 * Date applet
 * ===================================================================*/
 .calendar {
+box-shadow: 1px 1px 1px 1px rgba(15,0,0,0.0);
+border-radius: 8px;
 padding: 0em 1.75em;
 spacing-rows: 0px;
 spacing-columns: 0px;
@@ -476,7 +493,10 @@ color: #444;
 * ===================================================================*/
 #notification {
 border-radius: 3px 0px 0px 3px;
-background-color: rgba(0,0,0,0.85);
+border: inset 3px solid rgba(70,0,0,0.8);
+background-gradient-direction: vertical;
+background-gradient-start: rgba(0,10,10,0.85);
+background-gradient-end: rgba(0,10,10,0.7);
 padding: 10px;
 spacing-rows: 10px;
 spacing-columns: 10px;
