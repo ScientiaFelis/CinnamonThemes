@@ -465,7 +465,9 @@ width: 2em;
 height: 2em;
 }
 .calendar-day-heading {
-background: rgba(2, 46, 13, 0.9);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(150, 27, 27, 0.7);
+	background-gradient-end: rgba(0,10,10,0.7);
 border-bottom: 1px solid rgba(70, 0, 0, 0.8);
 font-size: 8pt;
 padding-top: .5em;
@@ -473,7 +475,9 @@ font-weight: bold;
 width: 2.15em;
 }
 .calendar-week-number {
-background: rgba(2, 46, 13, 0.9);
+	background-gradient-direction: horizontal;
+	background-gradient-start: rgba(150, 27, 27, 0.6);
+	background-gradient-end: rgba(0,10,10,0.7);
 border-right: 1px solid rgba(70, 0, 0, 0.8);
 font-size: 8pt;
 padding-right: .5em;
