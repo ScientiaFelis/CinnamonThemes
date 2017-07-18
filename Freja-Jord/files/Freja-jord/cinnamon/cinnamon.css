@@ -45,7 +45,8 @@ font-size: 8.5pt;
 .popup-menu-boxpointer {
 -boxpointer-gap: 4px;
 -arrow-border-radius: 4px;
--arrow-background-color: rgba(0,0,0,0.75);
+-arrow-border: inset solid 3px rgba(70,0,0,0.8);
+-arrow-background-color: rgba(0,10,10,0.75);
 -arrow-base: 22px;
 -arrow-rise: 12px;
 }
@@ -76,6 +77,10 @@ border-radius: 4px
 border-image: url("date-label.svg") 0 0 2 2 stretch;
 }
 .popup-sub-menu {
+	border: inset 3px solid rgba(70,0,0,0.8);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,10,10,0.85);
+	background-gradient-end: rgba(0,10,10,0.7);
 }
 .popup-sub-menu StScrollBar {
 padding: 4px;
@@ -706,6 +711,9 @@ padding: 5px;
 * ===================================================================*/
 .menu-favorites-box {
 padding: 0px;
+	background-gradient-direction: horizontal;
+	background-gradient-start: rgba(99, 13, 13, 0.53);
+	background-gradient-end: rgba(0,10,10,0.8);
 }
 .menu-favorites-button {
 padding: 10px 20px 10px 20px;
