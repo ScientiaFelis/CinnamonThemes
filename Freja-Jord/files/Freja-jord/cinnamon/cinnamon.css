@@ -34,10 +34,13 @@ border-image: url("scrollbar.svg") 4;
 }
 #Tooltip {
 padding: 4px 8px 5px 8px;
-background-color: rgba(111, 171, 23, 0.43);
+border: inset 1px rgba(70,0,0,0.8);
+background-gradient-direction: vertical;
+background-gradient-start: rgba(111, 171, 23, 0.43);
+background-gradient-end: rgba(0,10,10,0.7);
 border-radius: 2px;
 font-weight: bold;
-font-size: 8.5pt;
+font-size: 9pt;
 }
 /* ===================================================================
 * PopupMenu (popupMenu.js)
@@ -45,7 +48,8 @@ font-size: 8.5pt;
 .popup-menu-boxpointer {
 -boxpointer-gap: 4px;
 -arrow-border-radius: 4px;
--arrow-background-color: rgba(0,0,0,0.75);
+-arrow-border: inset solid 3px rgba(70,0,0,0.8);
+-arrow-background-color: rgba(0,10,10,0.75);
 -arrow-base: 22px;
 -arrow-rise: 12px;
 }
@@ -76,6 +80,10 @@ border-radius: 4px
 border-image: url("date-label.svg") 0 0 2 2 stretch;
 }
 .popup-sub-menu {
+	border: inset 3px solid rgba(70,0,0,0.8);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,10,10,0.85);
+	background-gradient-end: rgba(0,10,10,0.7);
 }
 .popup-sub-menu StScrollBar {
 padding: 4px;
@@ -465,7 +473,9 @@ width: 2em;
 height: 2em;
 }
 .calendar-day-heading {
-background: rgba(2, 46, 13, 0.9);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(150, 27, 27, 0.7);
+	background-gradient-end: rgba(0,10,10,0.7);
 border-bottom: 1px solid rgba(70, 0, 0, 0.8);
 font-size: 8pt;
 padding-top: .5em;
@@ -473,7 +483,9 @@ font-weight: bold;
 width: 2.15em;
 }
 .calendar-week-number {
-background: rgba(2, 46, 13, 0.9);
+	background-gradient-direction: horizontal;
+	background-gradient-start: rgba(150, 27, 27, 0.6);
+	background-gradient-end: rgba(0,10,10,0.7);
 border-right: 1px solid rgba(70, 0, 0, 0.8);
 font-size: 8pt;
 padding-right: .5em;
@@ -702,6 +714,9 @@ padding: 5px;
 * ===================================================================*/
 .menu-favorites-box {
 padding: 0px;
+	background-gradient-direction: horizontal;
+	background-gradient-start: rgba(99, 13, 13, 0.53);
+	background-gradient-end: rgba(0,10,10,0.8);
 }
 .menu-favorites-button {
 padding: 10px 20px 10px 20px;
