@@ -715,8 +715,8 @@ padding: 5px;
 .menu-favorites-box {
 padding: 0px;
 	background-gradient-direction: horizontal;
-	background-gradient-start: rgba(99, 13, 13, 0.53);
-	background-gradient-end: rgba(0,10,10,0.8);
+	background-gradient-start: rgba(255, 69, 69, 0.40);
+	background-gradient-end: rgba(0,10,10,0.85);
 }
 .menu-favorites-button {
 padding: 10px 20px 10px 20px;
