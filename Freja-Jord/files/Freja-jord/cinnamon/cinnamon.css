@@ -725,6 +725,7 @@ padding: 0px;
 	background-gradient-direction: horizontal;
 	background-gradient-start: rgba(255, 69, 69, 0.40);
 	background-gradient-end: rgba(0,10,10,0.85);
+	border-radius: 0px 8px 0px 8px;
 }
 .menu-favorites-button {
 padding: 10px 20px 10px 20px;
@@ -787,9 +788,15 @@ padding: 0px 7px;
 color: #444;
 }
 .menu-category-button-selected {
-height: 36px;
-padding: 0px 7px;
+height: 24px;
+padding: 5px;
 border-image: url("checkbox-off-focus.svg") 3;
+background-gradient-direction: vertical;
+background-gradient-start: rgba(255,0,0,0.0);
+background-gradient-end:  rgba(172,205,138,0.7);
+box-shadow: inset 1px 1px 1px rgba(255,255,255,0.6);
+text-shadow: 0px 1px 1px rgba(0,0,0,0.7);
+border-radius: 0px 16px 0px 16px;
 }
 .menu-category-button-label:ltr {
 padding-left: 5px;
