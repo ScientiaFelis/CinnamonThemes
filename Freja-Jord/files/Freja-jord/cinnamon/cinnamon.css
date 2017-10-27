@@ -723,7 +723,7 @@ padding: 5px;
 .menu-favorites-box {
 padding: 0px;
 	background-gradient-direction: horizontal;
-	background-gradient-start: rgba(255, 69, 69, 0.40);
+	background-gradient-start: rgba(255, 11, 11, 0.34);
 	background-gradient-end: rgba(0,10,10,0.85);
 	border-radius: 0px 8px 0px 8px;
 }
@@ -734,6 +734,7 @@ transition-duration: 250;
 .menu-favorites-button:hover {
 border-image: url("fav.svg") 9;
 transition-duration: 250;
+border-radius: 0px 8px 0px 8px
 }
 .menu-background {
     border: inset 3px solid rgba(70,0,0,0.8);
