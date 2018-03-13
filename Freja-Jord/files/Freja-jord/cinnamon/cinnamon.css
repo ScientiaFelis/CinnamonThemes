@@ -1061,7 +1061,8 @@ border-radius: 0px;
 * ===================================================================*/
 .workspace-osd {
 border-radius: 0px 12px 0px 12px;
-border: 1px rgba(70, 0, 0, 0.80);/* rgba(231, 17, 17, 0.53)  rgba(245, 151, 151, 0.7)*/
+border: inset 2px solid  rgba(182, 5, 5, 0.8);
+/* This is some alternative borders:  rgba(231, 17, 17, 0.53)  rgba(245, 151, 151, 0.7) */
 background-color: rgba(0,0,0,0.75);
 font-weight: bold;
 padding: 1em 2em;
