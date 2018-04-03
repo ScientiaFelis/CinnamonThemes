@@ -860,6 +860,12 @@ min-width: 5px;
 padding: 0px 4px 0px 4px;
 transition-duration: 250;
 }
+	.window-list-item-box .progress {
+		background-color: #bada55;
+		border: 1px solid rgba(70,0,0,0.8);
+		border-radius: 10px;
+		color: #000000;
+	}
 .panel-left .window-list-item-box, .panel-right .window-list-item-box {
 padding: 0px;
 transition-duration: 250;
@@ -877,6 +883,18 @@ background-gradient-end: #45883b;
 background-gradient-direction: vertical;
 transition-duration: 250;
 }
+
+.window-list-preview {
+	padding: 10px 15px 15px 15px;
+	font-weight: bold;
+	text-shadow: black 0px 0px 2px;
+	border: 1px solid rgba(70,0,0,0.8); /* rgba(0,255,0,1);*/
+	border-radius: 3px;
+	/* border-image: url("checkbox-off-focus.svg") 3; if this is on the background goes transparent :-( */
+	background-color: rgba(0,0,0,0.75);
+	transition-duration: 150;
+}
+
 /* ===================================================================
 * Sound Applet (status/volume.js)
 * ===================================================================*/
